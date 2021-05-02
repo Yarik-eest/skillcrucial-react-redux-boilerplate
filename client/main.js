@@ -2,6 +2,7 @@ import 'react-hot-loader/patch'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
+
 import Root from './config/root'
 
 import './assets/scss/main.scss'

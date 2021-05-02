@@ -7,7 +7,7 @@ import SockJS from 'sockjs-client'
 import rootReducer from './reducers'
 import createHistory from './history'
 import socketActions from './sockets'
-
+ 
 export const history = createHistory()
 
 const isBrowser = typeof window !== 'undefined'
